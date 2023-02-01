@@ -63,7 +63,7 @@ print(f"{tupleAThrice = }")
 tupleD = (1, 2, 3)
 hasOne = 1 in tupleD  # True
 hasFour = 4 in tupleD  # False
-
+print(hasOne)
 
 # tuple indexing (0 is first, -1 is last, or 1 less than the length)
 
@@ -212,5 +212,7 @@ print(word_counts_dict)
 # Remember to wrap the result in curly braces
 word_counts_dict = {word: word_list.count(word) for word in word_list}
 
+print(word_counts_dict)
+print(word_list)
 # Spend most of your practice on comprehensions - they are
 # key to transforming data in Python.

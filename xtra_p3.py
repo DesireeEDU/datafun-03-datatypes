@@ -24,9 +24,14 @@ with open("text_hamlet.txt", "r") as f1:
 with open("text_juliuscaesar.txt", "r") as f2:
     text = f2.read()
     wordlist2 = text.split()  # split on whitespace
+    
+    
 
 # Done with files - let the files close and the work begin
+wordlist_1 = wordlist1.sort
 
+print(wordlist1)
+print(wordlist2)
 # Remove duplicates by creating two sorted sets
 # hint: use sorted() to sort the list
 # hint: use set() to remove duplicates

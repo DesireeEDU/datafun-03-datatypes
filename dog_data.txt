@@ -1,0 +1,10 @@
+Hailey 3
+Emmie 4
+Lucy 5
+Layne 6
+Hailey 5
+Emmie 2
+Emmie 1
+Emmie 6
+Lucy 7
+Layne 5

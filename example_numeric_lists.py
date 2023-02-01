@@ -275,7 +275,7 @@ circumference_list = [2 * math.pi * r for r in radius_list]
 
 # Mastering comprehesions is a key skill for data scientists
 numbers = [1, 2, 3, 4]
-squares = [x ** 2 for x in numbers]
+squares = [x**2 for x in numbers]
 
 print()
 print("Add print statements to the code to see what happens.")
